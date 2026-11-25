@@ -314,6 +314,26 @@ body:is([data-act="gallery"],[data-act="approach"]) #take-stage-ui .stage-bottom
 #curtain-invitation h1{margin-bottom:8px}
 </style>
 
+<style>
+#exhibit-info {
+  box-sizing: border-box;
+  background: #121a31;
+  padding: clamp(16px, 2.25vw, 36px);
+  border: 1px solid #a287654f;
+  border-top-color: #e6ba81;
+  box-shadow: 0 18px 46px #03061280;
+}
+#exhibit-title:focus { outline: none; }
+#exhibit-info #exhibit-caption { color: #eee3d5; }
+#exhibit-info #exhibit-credit { color: #d0c6be; }
+#exhibit-info .stage-key:focus-visible {
+  outline: 2px solid #f5cd96;
+  outline-offset: 2px;
+}
+@media (max-width: 760px) {
+  #exhibit-info { padding: 14px 16px 16px; }
+}
+</style>
 </head>
 <body data-view="opening">
   <div class="painting" id="painted-world">
